@@ -7,12 +7,14 @@
 
 import Foundation
 import Combine
-
+//Протокол ObservableObject перевіряє будь які зміни даних та оновлює будь яке view,яке потребує  оновлення
 final class ModelData:ObservableObject{
    @Published var landmarks:[Landmark] = load("landmarkData.json")
 }
 
+//Масив який приймає дані з json файлу
 var landmarks:[Landmark] = load("landmarkData.json")
+//Метод який зчитує дані з json файлу
 func load<T: Decodable>(_ filename:String) -> T {
     let data: Data
     
