@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C9B478A-50EF-4B9C-A05A-8688B67FC589"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "489A68EF-6498-43A0-9768-F30332632A59"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Landmarks/Categories/CategoryHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C83DEDF3-C234-4EAC-B802-BC4806545872"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Landmarks/Categories/CategoryHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CategoryHome"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C83DEDF3-C234-4EAC-B802-BC4806545872 - 2d3fa0a06e3b231"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Landmarks.CategoryHome.modelData.getter : Landmarks.ModelData"
+                  moduleName = "Landmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romansamborskyi/Documents/Developer/Landmarks/Landmarks/Categories/CategoryHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C83DEDF3-C234-4EAC-B802-BC4806545872 - 1f53fd1bed154597"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Landmarks.CategoryHome.$modelData.getter : SwiftUI.EnvironmentObject&lt;Landmarks.ModelData&gt;.Wrapper"
+                  moduleName = "Landmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romansamborskyi/Documents/Developer/Landmarks/Landmarks/Categories/CategoryHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C83DEDF3-C234-4EAC-B802-BC4806545872 - cf51c97eb37fcff9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Landmarks.CategoryHome.init() -&gt; Landmarks.CategoryHome"
+                  moduleName = "Landmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romansamborskyi/Documents/Developer/Landmarks/Landmarks/Categories/CategoryHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
