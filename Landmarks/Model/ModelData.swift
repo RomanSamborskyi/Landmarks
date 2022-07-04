@@ -10,6 +10,7 @@ import Combine
 //Протокол ObservableObject перевіряє будь які зміни даних та оновлює будь яке view,яке потребує  оновлення
 final class ModelData:ObservableObject{
    @Published var landmarks:[Landmark] = load("landmarkData.json")
+    var hikes:[Hike] = load("hikeData.json")
 }
 
 //Масив який приймає дані з json файлу
@@ -26,7 +27,7 @@ func load<T: Decodable>(_ filename:String) -> T {
         data = try Data(contentsOf: file)
     }catch{
         fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
-    }
+    }                   
     do {
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
