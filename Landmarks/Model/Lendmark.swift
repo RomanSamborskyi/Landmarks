@@ -30,6 +30,9 @@ private var imageName: String
 var image: Image {
     Image(imageName)
    }
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
+    }
 
 private var coordinates: Coordinates
 var locationCoordinates: CLLocationCoordinate2D {
